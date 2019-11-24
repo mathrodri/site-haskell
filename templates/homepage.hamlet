@@ -1,2 +1,139 @@
-<h1>
-    Teste
+<div id="banner">
+    <div class="opacity-filter">
+    <h1>
+        Aprenda a ser o melhor coach da sua área
+    <span>
+        (ou não)
+
+<div id="quiz-container">
+    <form id="quiz-form">
+        <fieldset>
+            <legend>
+                Certificado de coach
+
+            <div class="data-box">
+                <label for="name">
+                    Nome:
+                <br>
+                <input type="text" id="input-name">
+
+            <div class="data-box">
+                <button type="button" id="start-quiz-button">
+                    Fazer questionário
+
+    <div id="quiz-steps-container" class="invisible">
+        <div class="quiz-step visible" data-step="1">
+            <form id="question-form-1" class="question-form">
+                <p class="question-title">
+                    1. Quais são os requisitos necessários para ser um coach ?
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-1" id="" value="false" checked>
+                            Ter formação e experiência comprovada na área de atuação assim como ser referência e ter influência sobre as outras pessoas do seu ramo, alem de possuir traquejo social, saber direcionar as pessoas no rumo certo e ser realista quanto aos resultados ao invés de fazer promessas milagrosas e instantâneas.
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-1" id="" value="false">
+                            Ter alguma certificação na área de atuação, saber conversar e convencer as pessoas.
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-1" id="" value="true">
+                            Estar com muito tempo livre, não ter o que fazer e querer ganhar dinheiro fácil falando bobagens.
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-1" id="" value="false">
+                            Apenas ter trabalhado na área de atuação já é o suficiente.
+                <button type="button" class="next-step-button">
+                    Próxima
+
+        <div class="quiz-step" data-step="2">
+            <form id="question-form-2" class="question-form">
+                <p class="question-title">
+                    2. Qual deve ser a postura de um coach caso seu respectivo cliente o chame em um horário não comercial ?
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-2" id="" value="true"  checked>
+                            Dar uma solução breve e sucinta ao cliente, explicando calmamente sobre os horários de atendimento e marcar um hora conveniente para ambos os lados poderem se encontrar e conversar mais aprofundadamente sobre o assunto em questão.
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-2" id="" value="false">
+                            Mandar o cliente ir para onde Judas bateu as botas e adverti-lo sobre o horário
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-2" id="" value="false">
+                            Parar qualquer atividade que esteja fazendo no momento para resolver o problema do cliente não importa o que seja.
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-2" id="" value="true">
+                            Falar qualquer besteira rápida para cliente achar que o coach em questão é sabichão e parar de encher o saco. (principalmente se for final de semana quando estiver pronto pra sair pra baladinha para se achar porque é coach)
+                <button type="button" class="next-step-button">
+                    Próxima
+        <div class="quiz-step" data-step="3">
+            <form id="question-form-3" class="question-form">
+                <p class="question-title">
+                    3. O que um coach precisa para passar confiabilidade ás pessoas ?
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-3" id="" value="true"  checked>
+                            Só precisa falar qualquer coisa que as pessoas queiram ouvir e contar um monte case falso de sucesso.
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-3" id="" value="false">
+                            Precisa possuir grandes clientes de sucesso e nome, ter boas referências e ser reconhecido popularmente pelo trabalho de excelência.
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-3" id="" value="false">
+                            Um escritório com várias coisas "cool" em algum bairro nobre da sua respectiva cidade e alguns posts nas redes sociais para exibir seu local de trabalho.
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-3" id="" value="false">
+                            Apenas falar que ele é bom no que faz.
+                <button type="button" class="next-step-button">
+                    Próxima
+        <div class="quiz-step" data-step="4">
+            <form id="question-form-4" class="question-form">
+                <p class="question-title">
+                    4. Quais as principáis qualidades de um coach
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-4" id="" value="false"  checked>
+                            Alguém que tenha proficiência em sua área, expertise, que seja atencioso e seja honesto com seus clientes.
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-4" id="" value="false">
+                            Precisa apenas ter uma boa dicção para falar com as pessoas.
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-4" id="" value="false">
+                            Necessita ser afetuoso com seus clientes e cobrar barato.
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-4" id="" value="true">
+                            Saber enrolar e falar várias besteiras genêricas para as pessoas.
+                <button type="button" class="next-step-button">
+                    Próxima
+        <div class="quiz-step" data-step="5">
+            <form id="question-form-5" class="question-form">
+                <p class="question-title">
+                    5. Como um coach deve agir caso seu cliente apresente um problema que não seja da área da sua respectiva atuação ?
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-5" id="" value="false"  checked>
+                            Deve ser honesto e sincero com o cliente e orienta-lo a procurar alguém capacitado para ajudar em seu problem, indicando profissionais de qualidade caso conheça algum.
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-5" id="" value="true">
+                            Deve tentar "resolver" o problema do cliente não importa o que seja, mesmo que não entenda nada, pois esse é o trabalho de um coach. (apesar de tudo o que importa é ganhar o dinheiro no final do mês, o cliente é só mais um ferrado no mundo)
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-5" id="" value="false">
+                            Procurar um especialista e tentar aprender algo para auxiliar seu cliente.
+                <div class="data-box">
+                    <label>
+                        <input type="radio" name="question-5" id="" value="false">
+                            Procurar a solução na internet ou comprar algum curso online sobre o assunto.
+                <button type="button" class="next-step-button">Próxima</button>
+    <div id="quiz-result-container" class="invisible">
+        <p id="quiz-result-title">
+            Resultado
+        <p id="quiz-result">
+        <p id="quiz-result-text">
