@@ -40,7 +40,7 @@ function nextStep() {
 function prevStep() {}
 
 function showResult() {
-    answersAssociation = {
+    var answersAssociation = {
         '0': 'Infelizmente você errou todas as perguntas, isso significa que você provavelmente se importa com as pessoas, então não está pronto para ser coach.',
         '1': 'Por incrível que pareça existem pessoas piores que você, mas esse resultado indica que você ainda possui amor no coração com as pessoas, ainda falta um longo caminho para ser coach.',
         '2': 'Bom, não foi dos piores mas você ainda tem coisas para aprender, não desista e um dia você irá conseguir.',
@@ -101,4 +101,6 @@ function addEvents() {
     addNextButtonEvent();
 }
 
-addEvents();
+window.onload = function() {
+    addEvents();
+} 
