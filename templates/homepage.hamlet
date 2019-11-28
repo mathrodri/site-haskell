@@ -1,7 +1,9 @@
+<header #header>
+
 <div #banner">
     <div .opacity-filter>
     <h1>
-        Aprenda a ser o melhor coach da sua área
+        Libere o coach dentro de você
     <span>
         (ou não)
 
