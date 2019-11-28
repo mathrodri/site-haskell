@@ -9,7 +9,7 @@
     <form #quiz-form>
         <fieldset>
             <legend>
-                Certificado de coachh
+                Certificado de coach
 
             <div .data-box>
                 <label for="name">
