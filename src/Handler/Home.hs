@@ -19,8 +19,7 @@ data FileForm = FileForm
 
 getHomeR :: Handler Html
 getHomeR = do
-    defaultLayout $ do 
-        addStylesheet (StaticR css_bootstrap_css)
+    defaultLayout $ do
         addStylesheet (StaticR css_main_css)
         addStylesheet (StaticR css_home_css)
         addScript (StaticR js_quiz_js)
