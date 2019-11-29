@@ -103,7 +103,7 @@
                 <div .quiz-step data-step="4">
                     <form #question-form-4 .question-form>
                         <p .question-title>
-                            4. Quais as principáis qualidades de um coach: 
+                            4. Quais as principáis qualidades de um coach:   
                         <div .data-box>
                             <label>
                                 <input type="radio" name="question-4"  value="false"  checked>
