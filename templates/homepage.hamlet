@@ -1,5 +1,6 @@
 <div #main>
     <header #header>
+        <img alt="logo" src="images/logo.png">
     
     <div #banner">
         <div .opacity-filter>
