@@ -81,7 +81,7 @@
                 <div .quiz-step data-step="3">
                     <form #question-form-3 .question-form>
                         <p .question-title>
-                            3. O que um coach precisa para passar confiabilidade ás pessoas ?
+                            3.Como um coach passa confiabilidade ás pessoas ?
                         <div .data-box>
                             <label>
                                 <input type="radio" name="question-3"  value="true"  checked>
