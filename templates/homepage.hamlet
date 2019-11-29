@@ -1,6 +1,6 @@
 <div #main>
     <header #header>
-        <img alt="logo" src="images/logo.png">
+        <img alt="logo" src="/static/images/logo.png">
     
     <div #banner">
         <div .opacity-filter>
@@ -142,3 +142,5 @@
                 Resultado
             <p #quiz-result">
             <p #quiz-result-text">
+            
+    <script data-ad-client="ca-pub-1231910854943828" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
