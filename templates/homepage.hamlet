@@ -40,7 +40,7 @@
                         <div .data-box>
                             <label>
                                 <input type="radio" name="question-1"  value="false" checked>
-                                    Ter formação e experiência comprovada na área de atuação assim como ser referência e ter influência sobre as outras pessoas do seu ramo, alem de possuir traquejo social, saber direcionar as pessoas no rumo certo e ser realista quanto aos resultados ao invés de fazer promessas milagrosas e instantâneas.
+                                    Ter formação e experiência comprovada na área, ser realista quanto aos resultados ao invés de fazer promessas milagrosas.
                         <div .data-box>
                             <label>
                                 <input type="radio" name="question-1"  value="false">
@@ -48,7 +48,7 @@
                         <div .data-box>
                             <label>
                                 <input type="radio" name="question-1"  value="true">
-                                    Estar com muito tempo livre, não ter o que fazer e querer ganhar dinheiro fácil falando bobagens.
+                                    Estar com muito tempo livre, não ter o que fazer e querer ganhar dinheiro fácil falando coisas que nem você coloca em prática.
                         <div .data-box>
                             <label>
                                 <input type="radio" name="question-1"  value="false">
@@ -59,23 +59,23 @@
                 <div .quiz-step data-step="2">
                     <form #question-form-2 .question-form>
                         <p .question-title>
-                            2. Qual deve ser a postura de um coach caso seu respectivo cliente o chame em um horário não comercial ?
+                            2. Qual deve ser a postura de um coach quando identifica que seu cliente precisa de atendimento de um psicólogo ?
                         <div .data-box>
                             <label>
                                 <input type="radio" name="question-2"  value="true"  checked>
-                                    Dar uma solução breve e sucinta ao cliente, explicando calmamente sobre os horários de atendimento e marcar um hora conveniente para ambos os lados poderem se encontrar e conversar mais aprofundadamente sobre o assunto em questão.
+                                    Você continua com o atendimento, porque depressão/ansiedade é frescura, com certeza você cura em 2 semanas. 
                         <div .data-box>
                             <label>
                                 <input type="radio" name="question-2"  value="false">
-                                    Mandar o cliente ir para onde Judas bateu as botas e adverti-lo sobre o horário
+                                    Encaminha o cliente para atendimento especializado.
                         <div .data-box>
                             <label>
                                 <input type="radio" name="question-2"  value="false">
-                                    Parar qualquer atividade que esteja fazendo no momento para resolver o problema do cliente não importa o que seja.
+                                    Entende que você não tem formação para amparar seu cliente, e pede que ele procure um psicólogo.
                         <div .data-box>
                             <label>
                                 <input type="radio" name="question-2"  value="true">
-                                    Falar qualquer besteira rápida para cliente achar que o coach em questão é sabichão e parar de encher o saco. (principalmente se for final de semana quando estiver pronto pra sair pra baladinha para se achar porque é coach)
+                                     Ensina uma dança tribal.
                         <button type="button" .next-step-button>
                             Próxima
                 <div .quiz-step data-step="3">
