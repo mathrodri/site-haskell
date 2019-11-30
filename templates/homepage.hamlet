@@ -1,151 +1,151 @@
 <div .navbar-wrapper>
     <div .navbar.navbar-inverse.navbar-fixed-top>
-		<div .navbar-inner>
-			<div .container>
-				<a .btn.btn-navbar data-toggle="collapse" data-target=".nav-collapse">
-					<span .icon-bar>
-					<span .icon-bar>
-					<span .icon-bar>
-				<h1 .brand>
-					<a href="index.html">
-						CoachnoteuCool
-				<nav .pull-right.nav-collapse.collapse>
-					<ul #menu-main .nav>
+        <div .navbar-inner>
+            <div .container>
+                <a .btn.btn-navbar data-toggle="collapse" data-target=".nav-collapse">
+                    <span .icon-bar>
+                    <span .icon-bar>
+                    <span .icon-bar>
+                <h1 .brand>
+                    <a href="index.html">
+                        CoachnoteuCool
+                <nav .pull-right.nav-collapse.collapse>
+                    <ul #menu-main .nav>
 
 <div #header-wrapper .header-slider>
-	<header .clearfix>
-		<div .logo>
-			<img src="/static/images/logo-image.png" alt="" /></div>
-		<div .container>
-			<div .row>
-				<div .span12>
-					<div #main-flexslider .flexslider>
-						<ul .slides>
-							<li>
-								<p .home-slide-content>
-									<strong>
-										Tá ruim?
-									Parece que vai piorar
-							<li>
-								<p .home-slide-content>
-									A vida é um
-									<strong>
-										conto de falhas
-							<li>
-								<p .home-slide-content>
-									Você não é
-									<strong>
-										incrível
+    <header .clearfix>
+        <div .logo>
+            <img src="/static/images/logo-image.png" alt="" /></div>
+        <div .container>
+            <div .row>
+                <div .span12>
+                    <div #main-flexslider .flexslider>
+                        <ul .slides>
+                            <li>
+                                <p .home-slide-content>
+                                    <strong>
+                                        Tá ruim?
+                                    Parece que vai piorar
+                            <li>
+                                <p .home-slide-content>
+                                    A vida é um
+                                    <strong>
+                                        conto de falhas
+                            <li>
+                                <p .home-slide-content>
+                                    Você não é
+                                    <strong>
+                                        incrível
 
 <section .spacer.green>
-	<div .container>
-		<div .row>
-			<div .span6.alignright.flyLeft>
-				<blockquote .large>
-					Trabalhe com o que você ama e nunca mais vai amar nada
-					<cite>
-						Aceite a vida é assim
-			<div .span6.aligncenter.flyRight>
-				<i .icon-coffee.icon-10x>
+    <div .container>
+        <div .row>
+            <div .span6.alignright.flyLeft>
+                <blockquote .large>
+                    Trabalhe com o que você ama e nunca mais vai amar nada
+                    <cite>
+                        Aceite a vida é assim
+            <div .span6.aligncenter.flyRight>
+                <i .icon-coffee.icon-10x>
 
 <section #services .section.grey>
-	<div .container>
-		<h4>
-			QUIZ
-		<div #quizContainerWrapper>
-			<div .side-banner>
-				<script type="text/javascript" src="//uprimp.com/bnr.php?section=General&pub=687798&format=160x600&ga=g">
-					<noscript>
-						<a href="https://yllix.com/publishers/687798" target="_blank">
-							<img src="//ylx-aff.advertica-cdn.com/pub/160x600.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" />
+    <div .container>
+        <h4>
+            QUIZ
+        <div #quizContainerWrapper>
+            <div .side-banner>
+                <script type="text/javascript" src="//uprimp.com/bnr.php?section=General&pub=687798&format=160x600&ga=g">
+                    <noscript>
+                        <a href="https://yllix.com/publishers/687798" target="_blank">
+                            <img src="//ylx-aff.advertica-cdn.com/pub/160x600.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" />
 
-			<div #quizContainer>
-				<div>
-					<h3>
-						Você será um bom Coach?
-				<div #question .question>
-					
-				<label .option>
-					<input type="radio" name="option" value="1" />
-					<span #opt1>
-				<label .option>
-					<input type="radio" name="option" value="2" />
-					<span #opt2>
-				<label .option>
-					<input type="radio" name="option" value="3" />
-					<span #opt3>
-				<label .option>
-					<input type="radio" name="option" value="4" />
-					<span #opt4>
-				<button #nextButton .next-btn.btn-rounded.large onclick="loadNextQuestion();">
-					Next Question
-				<button #prevButton disabled .next-btn.btn-rounded.large onclick="loadPreviousQuestion();">
-					Previous Question
-			<div .side-banner>
-				<script type="text/javascript" src="//uprimp.com/bnr.php?section=General&pub=687798&format=160x600&ga=g">
-					<noscript>
-						<a href="https://yllix.com/publishers/687798" target="_blank">
-							<img src="//ylx-aff.advertica-cdn.com/pub/160x600.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" />
+            <div #quizContainer>
+                <div>
+                    <h3>
+                        Você será um bom Coach?
+                <div #question .question>
+                    
+                <label .option>
+                    <input type="radio" name="option" value="1" />
+                    <span #opt1>
+                <label .option>
+                    <input type="radio" name="option" value="2" />
+                    <span #opt2>
+                <label .option>
+                    <input type="radio" name="option" value="3" />
+                    <span #opt3>
+                <label .option>
+                    <input type="radio" name="option" value="4" />
+                    <span #opt4>
+                <button #nextButton .next-btn.btn-rounded.large onclick="loadNextQuestion();">
+                    Next Question
+                <button #prevButton disabled .next-btn.btn-rounded.large onclick="loadPreviousQuestion();">
+                    Previous Question
+            <div .side-banner>
+                <script type="text/javascript" src="//uprimp.com/bnr.php?section=General&pub=687798&format=160x600&ga=g">
+                    <noscript>
+                        <a href="https://yllix.com/publishers/687798" target="_blank">
+                            <img src="//ylx-aff.advertica-cdn.com/pub/160x600.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" />
 
-	<div #result .container.result style="display:none;">
+    <div #result .container.result style="display:none;">
 
 <section .spacer.bg3>
-	<div .container>
-		<div .row>
-			<div .span12.aligncenter.flyLeft>
-				<blockquote .large>
-					O que te impede de tentar?
-					<br>
-					O máximo que pode acontecer é você passar um constrangimento a ponto de criar um trauma, que vai afetar vários aspectos da sua vida!
+    <div .container>
+        <div .row>
+            <div .span12.aligncenter.flyLeft>
+                <blockquote .large>
+                    O que te impede de tentar?
+                    <br>
+                    O máximo que pode acontecer é você passar um constrangimento a ponto de criar um trauma, que vai afetar vários aspectos da sua vida!
 
-			<div .span12.aligncenter.flyRight>
-				<i .icon-rocket.icon-10x>
+            <div .span12.aligncenter.flyRight>
+                <i .icon-rocket.icon-10x>
 
 <section #about .section>
-	<div .container>
-		<h4>
-			Denuncie falsas práticas de coach!
-		<div .row>
-			<div .span4.offset1>
-				<div>
-					<h2>
-						Coach
-						<strong>
-							existe?
-					<p>
-						Em razão da falta de regulamentação, há diferentes interpretações sobre o que é ser coach, inclusive, com divergências internas sobre o limite de atuação dos profissionais. A International Coach Federation (ICF) e a Sociedade Brasileira de Coaching (SBC) têm códigos de ética que versam sobre princípios e normas a serem cumpridos. Por isso, se você usou serviços de coach e se sentiu lesado denuncie!
-			<div .span6>
-				<div .aligncenter>
-					<img src="/static/images/creativity.png" alt="" />
+    <div .container>
+        <h4>
+            Denuncie falsas práticas de coach!
+        <div .row>
+            <div .span4.offset1>
+                <div>
+                    <h2>
+                        Coach
+                        <strong>
+                            existe?
+                    <p>
+                        Em razão da falta de regulamentação, há diferentes interpretações sobre o que é ser coach, inclusive, com divergências internas sobre o limite de atuação dos profissionais. A International Coach Federation (ICF) e a Sociedade Brasileira de Coaching (SBC) têm códigos de ética que versam sobre princípios e normas a serem cumpridos. Por isso, se você usou serviços de coach e se sentiu lesado denuncie!
+            <div .span6>
+                <div .aligncenter>
+                    <img src="/static/images/creativity.png" alt="" />
 
-		<div .row>
-			<div .span2.offset1.flyIn>
-				<div .people>
-					<img .team-thumb src="/static/images/img-1.jpg" alt="" />
-			<div .span2.flyIn>
-				<div .people>
-					<img .team-thumb src="/static/images/img-2.jpg" alt="" />
-			<div .span2.flyIn>
-				<div .people>
-					<img .team-thumb src="/static/images/img-3.jpg" alt="" />
-			<div .span2.flyIn>
-				<div .people>
-					<img .team-thumb src="/static/images/img-4.jpg" alt="" />
-			<div .span2.flyIn>
-				<div .people>
-					<img .team-thumb src="/static/images/img-5.jpg" alt="" />
+        <div .row>
+            <div .span2.offset1.flyIn>
+                <div .people>
+                    <img .team-thumb src="/static/images/img-1.jpg" alt="" />
+            <div .span2.flyIn>
+                <div .people>
+                    <img .team-thumb src="/static/images/img-2.jpg" alt="" />
+            <div .span2.flyIn>
+                <div .people>
+                    <img .team-thumb src="/static/images/img-3.jpg" alt="" />
+            <div .span2.flyIn>
+                <div .people>
+                    <img .team-thumb src="/static/images/img-4.jpg" alt="" />
+            <div .span2.flyIn>
+                <div .people>
+                    <img .team-thumb src="/static/images/img-5.jpg" alt="" />
 
 <footer>
-	<div .container>
-		<div .row>
-			<div .span6.offset3>
-				<p .copyright>
-					&copy; 
-					<div .credits>
-						Alt.DEV
+    <div .container>
+        <div .row>
+            <div .span6.offset3>
+                <p .copyright>
+                    &copy; 
+                    <div .credits>
+                        Alt.DEV
 
 <a href="#" .scrollup>
-	<i .icon-angle-up.icon-square.icon-bgdark.icon-2x>
+    <i .icon-angle-up.icon-square.icon-bgdark.icon-2x>
 <script src="/static/js/jquery.js">
 <script src="/static/js/jquery.scrollTo.js">
 <script src="/static/js/jquery.nav.js">
