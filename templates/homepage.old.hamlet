@@ -1,0 +1,159 @@
+<div #main>
+    <header #header>
+        <img alt="logo" src="/static/images/logo.png">
+    
+    <div #banner">
+        <div .opacity-filter>
+        <h1>
+            Libere o coach dentro de você
+        <span>
+            (ou não)
+    
+    <div #quiz-container>
+        <div .side-ad-banner>
+            <div .vertical-ad-banner>
+                <script type="text/javascript" src="//uprimp.com/bnr.php?section=General&pub=687798&format=160x600&ga=g">
+                <noscript>
+                    <a href="https://yllix.com/publishers/687798" target="_blank">
+                        <img src="//ylx-aff.advertica-cdn.com/pub/160x600.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" />
+        <div #form-container>
+            <form #quiz-form>
+                <fieldset>
+                    <legend>
+                        Certificado de coach
+        
+                    <div .data-box>
+                        <label for="name">
+                            Nome:
+                        <br>
+                        <input type="text" #input-name>
+        
+                    <div .data-box>
+                        <button type="button" #start-quiz-button>
+                            Fazer questionário
+        
+            <div #quiz-steps-container .invisible>
+                <div .quiz-step.visible data-step="1">
+                    <form #question-form-1 .question-form>
+                        <p .question-title">
+                            1. Quais são os requisitos necessários para ser um coach ?
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-1"  value="false" checked>
+                                    Ter formação e experiência comprovada na área, ser realista quanto aos resultados ao invés de fazer promessas milagrosas.
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-1"  value="false">
+                                    Ter alguma certificação na área de atuação, saber conversar e convencer as pessoas.
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-1"  value="true">
+                                    Estar com muito tempo livre, não ter o que fazer e querer ganhar dinheiro fácil falando coisas que nem você coloca em prática.
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-1"  value="false">
+                                    Apenas ter trabalhado na área de atuação já é o suficiente.
+                        <button type="button" .next-step-button>
+                            Próxima
+        
+                <div .quiz-step data-step="2">
+                    <form #question-form-2 .question-form>
+                        <p .question-title>
+                            2. Qual deve ser a postura de um coach quando identifica que seu cliente precisa de atendimento de um psicólogo ?
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-2"  value="true"  checked>
+                                    Você continua com o atendimento, porque depressão/ansiedade é frescura, com certeza você cura em 2 semanas. 
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-2"  value="false">
+                                    Encaminha o cliente para atendimento especializado.
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-2"  value="false">
+                                    Entende que você não tem formação para amparar seu cliente, e pede que ele procure um psicólogo.
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-2"  value="true">
+                                     Ensina uma dança tribal.
+                        <button type="button" .next-step-button>
+                            Próxima
+                <div .quiz-step data-step="3">
+                    <form #question-form-3 .question-form>
+                        <p .question-title>
+                            3.Como um coach passa confiabilidade ás pessoas ?
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-3"  value="true"  checked>
+                                    Só precisa falar qualquer coisa que as pessoas queiram ouvir e contar um monte case falso de sucesso.
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-3"  value="false">
+                                    Precisa possuir grandes clientes de sucesso e nome, ter boas referências e ser reconhecido popularmente pelo trabalho de excelência.
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-3"  value="false">
+                                    Um escritório com várias coisas "cool" em algum bairro nobre da sua respectiva cidade e alguns posts nas redes sociais para exibir seu local de trabalho.
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-3"  value="false">
+                                    Apenas falar que ele é bom no que faz.
+                        <button type="button" .next-step-button>
+                            Próxima
+                <div .quiz-step data-step="4">
+                    <form #question-form-4 .question-form>
+                        <p .question-title>
+                            4. Quais as principáis qualidades de um coach:   
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-4"  value="false"  checked>
+                                    Alguém que tenha proficiência em sua área, expertise, que seja atencioso e seja honesto com seus clientes.
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-4"  value="false">
+                                    Precisa apenas ter uma boa dicção para falar com as pessoas.
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-4"  value="false">
+                                    Necessita ser afetuoso com seus clientes e cobrar barato.
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-4"  value="true">
+                                    Saber enrolar e falar várias besteiras genêricas para as pessoas.
+                        <button type="button" .next-step-button>
+                            Próxima
+                <div .quiz-step data-step="5">
+                    <form #question-form-5 .question-form>
+                        <p .question-title>
+                            5. Como um coach deve agir caso seu cliente apresente um problema que não seja da área da sua respectiva atuação ?
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-5"  value="false"  checked>
+                                    Deve ser honesto e sincero com o cliente e orienta-lo a procurar alguém capacitado para ajudar em seu problem, indicando profissionais de qualidade caso conheça algum.
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-5"  value="true">
+                                    Deve tentar "resolver" o problema do cliente não importa o que seja, mesmo que não entenda nada, pois esse é o trabalho de um coach. (apesar de tudo o que importa é ganhar o dinheiro no final do mês, o cliente é só mais um ferrado no mundo)
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-5"  value="false">
+                                    Procurar um especialista e tentar aprender algo para auxiliar seu cliente.
+                        <div .data-box>
+                            <label>
+                                <input type="radio" name="question-5"  value="false">
+                                    Procurar a solução na internet ou comprar algum curso online sobre o assunto.
+                        <button type="button" .next-step-button>
+                            Próxima
+            <div #quiz-result-container .invisible>
+                <p #quiz-result-title">
+                    Resultado
+                <p #quiz-result">
+                <p #quiz-result-text">
+        <div .side-ad-banner>
+            <div .vertical-ad-banner>
+                <script type="text/javascript" src="//uprimp.com/bnr.php?section=General&pub=687798&format=160x600&ga=g">
+                <noscript>
+                    <a href="https://yllix.com/publishers/687798" target="_blank">
+                        <img src="//ylx-aff.advertica-cdn.com/pub/160x600.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" />
+            
+    <script data-ad-client="ca-pub-1231910854943828" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">

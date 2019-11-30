@@ -1,0 +1,17 @@
+#quizContainerWrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#quizContainer {
+    width: 60%;
+}
+
+.side-banner {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
