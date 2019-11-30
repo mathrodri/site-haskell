@@ -15,7 +15,7 @@
 <div #header-wrapper .header-slider>
     <header .clearfix>
         <div .logo>
-            <img src="/static/images/logo-image.png" alt="" /></div>
+            <img src="/static/images/logo-image.png" alt="">
         <div .container>
             <div .row>
                 <div .span12>
