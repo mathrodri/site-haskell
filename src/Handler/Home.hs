@@ -20,9 +20,6 @@ data FileForm = FileForm
 getHomeR :: Handler Html
 getHomeR = do
     defaultLayout $ do
-        addStylesheet (StaticR css_main_css)
-        addStylesheet (StaticR css_home_css)
-        addScript (StaticR js_quiz_js)
         [whamlet|
             <meta charset="utf-8">
         	<title>
@@ -36,7 +33,7 @@ getHomeR = do
         	<link rel="shortcut icon" href="/static/images/favicon.ico">
         	<script src="https://unpkg.com/jquery">
             <script src="https://surveyjs.azureedge.net/1.1.22/survey.jquery.js">
-            <link href="https://surveyjs.azureedge.net/1.1.22/modern.css" type="text/css" rel="stylesheet"/>
+            <link href="https://surveyjs.azureedge.net/1.1.22/modern.css" type="text/css" rel="stylesheet">
         	<link rel="stylesheet" href="/static/css/page.css">
         |]
         $(whamletFile "templates/homepage.hamlet")
