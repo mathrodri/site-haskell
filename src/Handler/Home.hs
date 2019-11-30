@@ -27,14 +27,6 @@ getHomeR = do
         	<meta name="viewport" content="width=device-width, initial-scale=1.0">
         	<meta name="description" content="Coach e seus fracassos">
         	<meta name="author" content="">
-        	<link href="/static/css/bootstrap-responsive.css" rel="stylesheet">
-        	<link href="/static/css/style.css" rel="stylesheet">
-        	<link href="/static/css/default.css" rel="stylesheet">
-        	<link rel="shortcut icon" href="/static/images/favicon.ico">
-        	<script src="https://unpkg.com/jquery">
-            <script src="https://surveyjs.azureedge.net/1.1.22/survey.jquery.js">
-            <link href="https://surveyjs.azureedge.net/1.1.22/modern.css" type="text/css" rel="stylesheet">
-        	<link rel="stylesheet" href="/static/css/page.css">
         |]
         $(whamletFile "templates/homepage.hamlet")
     
