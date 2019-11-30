@@ -1,9 +1,7 @@
-<!-- navbar -->
 <div .navbar-wrapper>
 	<div .navbar.navbar-inverse.navbar-fixed-top>
 		<div .navbar-inner>
 			<div .container>
-				<!-- Responsive navbar -->
 				<a .btn.btn-navbar data-toggle="collapse" data-target=".nav-collapse">
 					<span .icon-bar>
 					<span .icon-bar>
@@ -11,11 +9,9 @@
 				<h1 .brand>
 					<a href="index.html">
 						CoachnoteuCool
-				<!-- navigation -->
 				<nav .pull-right.nav-collapse.collapse>
 					<ul #menu-main .nav>
-					
-<!-- Header area -->
+
 <div #header-wrapper .header-slider>
 	<header .clearfix>
 		<div .logo>
@@ -40,9 +36,7 @@
 									Você não é
 									<strong>
 										incrível
-					<!-- end slider -->
 
-<!-- spacer section -->
 <section .spacer.green>
 	<div .container>
 		<div .row>
@@ -107,7 +101,6 @@
 			<div .span12.aligncenter.flyRight>
 				<i .icon-rocket.icon-10x>
 
-<!-- Page Content -->
 <section #about .section>
 	<div .container>
 		<h4>
@@ -150,7 +143,6 @@
 					&copy; 
 					<div .credits>
 						Alt.DEV
-	<!-- ./container -->
 
 <a href="#" .scrollup>
 	<i .icon-angle-up.icon-square.icon-bgdark.icon-2x>
