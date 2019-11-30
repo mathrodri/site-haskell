@@ -54,10 +54,10 @@
             QUIZ
         <div #quizContainerWrapper>
             <div .side-banner>
-                <script type="text/javascript" src="//uprimp.com/bnr.php?section=General&pub=687798&format=160x600&ga=g">
+                <script type="text/javascript" src="https://uprimp.com/bnr.php?section=General&pub=687798&format=160x600&ga=g">
                 <noscript>
                     <a href="https://yllix.com/publishers/687798" target="_blank">
-                        <img src="//ylx-aff.advertica-cdn.com/pub/160x600.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" />
+                        <img src="https://ylx-aff.advertica-cdn.com/pub/160x600.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" />
 
             <div #quizContainer>
                 <div>
@@ -82,10 +82,10 @@
                 <button #prevButton disabled .next-btn.btn-rounded.large onclick="loadPreviousQuestion();">
                     Previous Question
             <div .side-banner>
-                <script type="text/javascript" src="//uprimp.com/bnr.php?section=General&pub=687798&format=160x600&ga=g">
+                <script type="text/javascript" src="https://uprimp.com/bnr.php?section=General&pub=687798&format=160x600&ga=g">
                 <noscript>
                     <a href="https://yllix.com/publishers/687798" target="_blank">
-                        <img src="//ylx-aff.advertica-cdn.com/pub/160x600.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" />
+                        <img src="https://ylx-aff.advertica-cdn.com/pub/160x600.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" />
 
     <div #result .container.result style="display:none;">
 
