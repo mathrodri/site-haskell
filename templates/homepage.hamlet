@@ -25,17 +25,17 @@
                                 <p .home-slide-content>
                                     <strong>
                                         Tá ruim?
-                                    Parece que vai piorar
+                                    Parece que vai piorar <br>
                             <li>
                                 <p .home-slide-content>
                                     A vida é um
                                     <strong>
-                                        conto de falhas
+                                        conto de falhas <br>
                             <li>
                                 <p .home-slide-content>
                                     Você não é
                                     <strong>
-                                        incrível
+                                        incrível <br>
 
 <section .spacer.green>
     <div .container>
