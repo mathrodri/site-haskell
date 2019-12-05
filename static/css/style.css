@@ -951,7 +951,8 @@ section#about {
 	-moz-transition: background 0.25 ease-in;
 	-webkit-transition: background 0.25 ease-in;
 }
-#contact-form input[type=text] {
+#contact-form input[type=text]
+,#contact-form input[type=email] {
 	height: 60px;
 	margin-bottom:30px;
 }
