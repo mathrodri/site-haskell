@@ -1,10 +1,13 @@
-<div class="container h-100">
-  <div class="row h-100">
-    <div class="col-lg-6 my-auto m-auto text-center material-style box-login">
-        <h1>
-            Login
-    
-        <form method=post action=@{DenunciaR} autocomplete="off">
-            ^{widget}
-            <br>
-            <input id="cadastrar" type="submit" value="Cadastrar" style="color: black !important; border-color: black !important"  class="btn btn-outline js-scroll-trigger">
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Nome
+      <th scope="col">Email
+      <th scope="col">Mensagem
+
+  <tbody>
+    $forall Entity aid denun <- denuncia
+        <tr>
+          <td>#{denunciaNome denun}
+          <td>#{denunciaEmail denun}
+          <td>#{denunciaMensagem denun}
