@@ -37,13 +37,15 @@ getHomeR = do
         $(whamletFile "templates/homepage.hamlet")
         toWidget
             [whamlet|
-    
-                <h1>
-                    CADASTRO DE Denuncia
-    
-                <form method=post action=@{HomeR}>
-                    ^{widget}
-                    <input type="submit" value="Cadastrar">
+                <div .section-orange #contact>
+                    <div .row>
+                        <div .span6>
+                            <h1>
+                                Denuncie ou Conte seu caso para nós!
+                            <p>Nossa missão é encaminhar e fazer barulho para aqueles que usam de má fé, que vendem promessas milagrosas, então a melhor maneira para coibir esse tipo de atividade é denunciar. Deixe sua mensagem aqui, prometemos que vamos checar e passar sua história adiante.
+                                <form method=post action=@{HomeR}>
+                                    ^{widget}
+                                    <input type="submit" value="Cadastrar">
             |]
         $(whamletFile "templates/footer.hamlet")
         
