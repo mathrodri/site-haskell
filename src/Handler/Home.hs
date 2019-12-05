@@ -59,7 +59,7 @@ getHomeR = do
                                         <div .cform #contact-form>
                                             <form method=post action=@{HomeR}>
                                                 ^{widget}
-                                                <input type="submit" value="Cadastrar" style="margin: 0 auto;">
+                                                <input type="submit" #btn-denuncia value="Enviar" style="margin: 0 auto;">
             |]
         $(whamletFile "templates/footer.hamlet")
         

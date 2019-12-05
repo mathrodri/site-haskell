@@ -33,18 +33,17 @@
                         Denuncias
                 <nav .pull-right.nav-collapse.collapse>
                     <ul #menu-main .nav>
-
-<a href="voltar">
-<table class="table table-dark">
-  <thead>
-    <tr>
-      <th scope="col">Nome
-      <th scope="col">Email
-      <th scope="col">Mensagem
-
-  <tbody>
-    $forall Entity aid denuncia <- denuncias
-        <tr>
-          <td>#{denunciaNome denuncia}
-          <td>#{denunciaEmail denuncia}
-          <td>#{denunciaMensagem denuncia}
+<div #denuncias-container>
+  <table class="table table-dark">
+    <thead>
+      <tr>
+        <th scope="col">Nome
+        <th scope="col">Email
+        <th scope="col">Mensagem
+  
+    <tbody>
+      $forall Entity aid denuncia <- denuncias
+          <tr>
+            <td>#{denunciaNome denuncia}
+            <td>#{denunciaEmail denuncia}
+            <td>#{denunciaMensagem denuncia}
