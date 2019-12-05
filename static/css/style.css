@@ -956,6 +956,11 @@ section#about {
 	height: 60px;
 	margin-bottom:30px;
 }
+
+#contact-form input[type=email] {
+	padding: 1px 0;
+	background-color: rgba(227, 231, 228, 1);
+}
 #contact-form input[type=submit] {
 	color: #fff;
 	width: 185px;
