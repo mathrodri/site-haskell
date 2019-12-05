@@ -41,14 +41,14 @@ getHomeR = do
                 <h1>
                     CADASTRO DE Denuncia
     
-                <form method=post action=@{DenunciaR}>
+                <form method=post action=@{HomeR}>
                     ^{widget}
                     <input type="submit" value="Cadastrar">
             |]
         $(whamletFile "templates/footer.hamlet")
         
-postDenunciaR :: Handler Html
-postDenunciaR = do
+postHomeR :: Handler Html
+postHomeR = do
     ((result,_),_) <- runFormPost formDenuncia
     case result of 
         FormSuccess denuncia -> do 
