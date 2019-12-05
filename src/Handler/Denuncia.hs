@@ -17,6 +17,11 @@ data FileForm = FileForm
         , fileDescription :: Text
     }
     
+data Form = Form
+    { formInfo :: FormInfo
+        , formDescription :: Form
+    }
+    
 formDenuncia :: Form Denuncia 
 formDenuncia = renderBootstrap $ Denuncia
     <$> areq textField "Nome: " Nothing
