@@ -4,4 +4,3 @@
 /robots.txt RobotsR GET
 
 / HomeR GET
-/denuncia DenunciaR GET POST

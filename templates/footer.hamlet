@@ -1,0 +1,13 @@
+<footer>
+    <div .container>
+        <div .row>
+            <div .span6.offset3>
+                <p .copyright>
+                    &copy; 
+                    <div .credits>
+                        Alt.DEV
+
+<a href="#" .scrollup>
+    <i .icon-angle-up.icon-square.icon-bgdark.icon-2x>
+
+<script src="/static/js/quiz.js">

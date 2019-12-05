@@ -11,15 +11,18 @@ import Text.Lucius
 import Text.Julius
 -- import Network.HTTP.Types.Status
 import Database.Persist.Postgresql
-import Yesod.Form
 
-data FileForm = FileForm
-    { fileInfo :: FileInfo
-        , fileDescription :: Text
-    }
+
+formDenuncia :: Form Denuncia 
+formDenuncia = renderBootstrap $ Denuncia
+    <$> areq textField "Nome: " Nothing
+    <*> areq emailField "Email: " Nothing
+    <*> areq textField "Assunto: " Nothing
+    <*> areq textField "Mensagem: " Nothing
 
 getHomeR :: Handler Html
 getHomeR = do
+    (widget, _) <- generateFormPost formDenuncia
     defaultLayout $ do
         toWidgetHead [hamlet|
             <meta charset="utf-8">
@@ -30,31 +33,18 @@ getHomeR = do
             <meta name="author" content="">
         |]
         $(whamletFile "templates/homepage.hamlet")
+        toWidget
+            [whamlet|
+    
+                <h1>
+                    CADASTRO DE Denuncia
+    
+                <form method=post action=@{DenunciaR}>
+                    ^{widget}
+                    <input type="submit" value="Cadastrar">
+            |]
+        $(whamletFile "templates/footer.hamlet")
         
-        
-formDenuncia :: Form Denuncia 
-formDenuncia = renderBootstrap $ Denuncia
-    <$> areq textField "Nome: " Nothing
-    <*> areq emailField "Email: " Nothing
-    <*> areq textField "Assunto: " Nothing
-    <*> areq textField "Mensagem: " Nothing
-
--- T6DQ0klE
-
-getDenunciaR :: Handler Html
-getDenunciaR = do 
-    (widget, _) <- generateFormPost formDenuncia 
-    defaultLayout $ do 
-        [whamlet|
-
-            <h1>
-                CADASTRO DE Denuncia
-
-            <form method=post action=@{DenunciaR}>
-                ^{widget}
-                <input type="submit" value="Cadastrar">
-        |]
-
 postDenunciaR :: Handler Html
 postDenunciaR = do
     ((result,_),_) <- runFormPost formDenuncia

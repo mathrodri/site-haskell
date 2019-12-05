@@ -165,23 +165,3 @@
         <div .row>
             <div .span12>
                 <div .cform #contact-form>
-                    <div #sendmessage>
-                        Sua mensagem foi enviada com sucesso!
-                    <div #errormessage>
-                    <form method=post action=@{DenunciaR}>
-                        ^{widget}
-                        <input type="submit" value="Denunciar">
-
-<footer>
-    <div .container>
-        <div .row>
-            <div .span6.offset3>
-                <p .copyright>
-                    &copy; 
-                    <div .credits>
-                        Alt.DEV
-
-<a href="#" .scrollup>
-    <i .icon-angle-up.icon-square.icon-bgdark.icon-2x>
-
-<script src="/static/js/quiz.js">
