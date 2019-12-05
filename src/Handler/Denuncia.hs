@@ -39,7 +39,7 @@ postDenunciaR = do
     ((result,_),_) <- runFormPost formDenuncia
     case result of 
         FormSuccess mensagem -> do 
-            runDB $ insert denuncia 
+            runDB $ insert mensagem 
             setMessage [shamlet|
                 <div>
                     Denuncia feita com sucesso.
