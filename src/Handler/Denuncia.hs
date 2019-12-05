@@ -27,6 +27,13 @@ formDenuncia = renderBootstrap $ Denuncia
 
 -- T6DQ0klE
 
+getUsuarioR :: Handler Html
+getUsuarioR = do 
+    (widget,_) <- generateFormPost formDenuncia
+    defaultLayout $ do
+        setTitle "CoachNoTeuCool"
+        $(whamletFile "templates/denuncia.hamlet")
+
 postDenunciaR :: Handler Html
 postDenunciaR = do
     ((result,_),_) <- runFormPost formDenuncia
