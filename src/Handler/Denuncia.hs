@@ -27,19 +27,27 @@ formDenuncia = renderBootstrap $ Denuncia
 
 -- T6DQ0klE
 
-getUsuarioR :: Handler Html
-getUsuarioR = do 
-    (widget,_) <- generateFormPost formDenuncia
-    defaultLayout $ do
-        setTitle "CoachNoTeuCool"
-        $(whamletFile "templates/denuncia.hamlet")
+getDenunciaR :: Handler Html
+getDenunciaR = do 
+    (widget, enctype) <- generateFormPost formDenuncia 
+    defaultLayout $ do 
+        [whamlet|
+
+            <h1>
+                CADASTRO DE Denuncia
+
+            <form method=post action=@{DenunciaR}>
+                ^{widget}
+                <button>
+                    Cadastrar
+        |]
 
 postDenunciaR :: Handler Html
 postDenunciaR = do
     ((result,_),_) <- runFormPost formDenuncia
     case result of 
-        FormSuccess mensagem -> do 
-            runDB $ insert mensagem 
+        FormSuccess denuncia -> do 
+            runDB $ insert denuncia 
             setMessage [shamlet|
                 <div>
                     Denuncia feita com sucesso.
