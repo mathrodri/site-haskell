@@ -50,7 +50,8 @@ var opt3 = document.getElementById("opt3");
 var opt4 = document.getElementById("opt4");
 var nextButton = document.getElementById("nextButton");
 var prevButton = document.getElementById("prevButton");
-var resultCont = document.getElementById("result");
+var resultBox = document.getElementById("result");
+var resultCont = document.getElementById("score-result");
 
 function loadQuestion(questionIndex) {
   var q = questions[questionIndex];
@@ -81,7 +82,7 @@ function loadNextQuestion() {
   }
   if (currentQuestion == totQuestions) {
     container.style.display = "none";
-    resultCont.style.display = "";
+    resultBox.style.display = "";
     resultCont.textContent = score;
     return;
   }
