@@ -38,7 +38,7 @@ postDenunciaR :: Handler Html
 postDenunciaR = do
     ((result,_),_) <- runFormPost formDenuncia
     case result of 
-        FormSuccess denuncia -> do 
+        FormSuccess mensagem -> do 
             runDB $ insert denuncia 
             setMessage [shamlet|
                 <div>
