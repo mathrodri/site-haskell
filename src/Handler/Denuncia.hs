@@ -21,9 +21,11 @@ data FileForm = FileForm
 formDenuncia :: Form Denuncia 
 formDenuncia = renderBootstrap $ Denuncia
     <$> areq textField "Nome: " Nothing
-    <*> areq dayField "Email: " Nothing
+    <*> areq emailField "Email: " Nothing
     <*> areq textField "Assunto: " Nothing
     <*> areq textField "Mensagem: " Nothing
+
+-- T6DQ0klE
 
 postDenunciaR :: Handler Html
 postDenunciaR = do
