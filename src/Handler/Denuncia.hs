@@ -18,24 +18,24 @@ data FileForm = FileForm
         , fileDescription :: Text
     }
 
-formDenuncia :: Form Denuncia 
-formDenuncia = renderBootstrap3 BootstrapBasicForm $ Denuncia
-    <$> areq textField "Nome: " Nothing
-    <*> areq dayField "Email: " Nothing
-    <*> areq textField "Assunto: " Nothing
-    <*> areq textField "Mensagem: " Nothing
+-- formDenuncia :: Form Denuncia 
+-- formDenuncia = renderBootstrap3 BootstrapBasicForm $ Denuncia
+--     <$> areq textField "Nome: " Nothing
+--     <*> areq dayField "Email: " Nothing
+--     <*> areq textField "Assunto: " Nothing
+--     <*> areq textField "Mensagem: " Nothing
 
 postDenunciaR :: Handler Html
 postDenunciaR = do
-    ((result,_),_) <- runFormPost formDenuncia
-    case result of 
-        FormSuccess denuncia -> do 
-            runDB $ insert denuncia 
-            setMessage [shamlet|
-                <div>
-                    Denuncia feita com sucesso.
-            |]
-            redirect HomeR
-        _ -> redirect HomeR
-    -- redirect HomeR
+    -- ((result,_),_) <- runFormPost formDenuncia
+    -- case result of 
+    --     FormSuccess denuncia -> do 
+    --         runDB $ insert denuncia 
+    --         setMessage [shamlet|
+    --             <div>
+    --                 Denuncia feita com sucesso.
+    --         |]
+    --         redirect HomeR
+    --     _ -> redirect HomeR
+    redirect HomeR
     

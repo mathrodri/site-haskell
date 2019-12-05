@@ -20,7 +20,7 @@ data FileForm = FileForm
 getHomeR :: Handler Html
 getHomeR = do
     defaultLayout $ do
-        [whamlet|
+        [hamlet|
             <meta charset="utf-8">
             <title>
                 Coach no teu Fique esperto!
