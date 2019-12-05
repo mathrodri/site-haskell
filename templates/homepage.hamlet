@@ -168,23 +168,9 @@
                     <div #sendmessage>
                         Sua mensagem foi enviada com sucesso!
                     <div #errormessage>
-                    <form action=@{DenunciaR} method=post role="form" .contactForm>
-                        <div .row>
-                            <div .span6>
-                                <div .field your-name.form-group>
-                                    <input type="text" name="name" .form-control #name placeholder="Nome" data-rule="minlen:4" data-msg="Nome muito curto" />
-                                    <div .validation>
-                                <div .field.your-email.form-group>
-                                    <input type="text" .form-control name="email" #email placeholder="E-mail" data-rule="email" data-msg="Entre com e-mail válido" />
-                                    <div .validation>
-                                <div .field.subject.form-group>
-                                    <input type="text" .form-control name="subject" #subject placeholder="Assunto" data-rule="minlen:4" data-msg="Assunto muito curto" />
-                                    <div .validation>
-                            <div .span6>
-                                <div .field.message.form-group>
-                                    <textarea .form-control name="message" rows="5" data-rule="required" data-msg="Conte seu caso aqui" placeholder="Conte seu caso aqui!">
-                                    <div .validation>
-                                <input type="submit" value="Enviar" .btn.btn-default.pull-left>
+                    <form method=post action=@{DenunciaR}>
+                        ^{widget}
+                        <input type="submit" value="Denunciar">
 
 <footer>
     <div .container>

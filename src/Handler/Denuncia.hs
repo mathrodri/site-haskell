@@ -30,16 +30,6 @@ formDenuncia = renderBootstrap $ Denuncia
 getDenunciaR :: Handler Html
 getDenunciaR = do 
     (widget, _) <- generateFormPost formDenuncia 
-    defaultLayout $ do 
-        [whamlet|
-
-            <h1>
-                CADASTRO DE Denuncia
-
-            <form method=post action=@{DenunciaR}>
-                ^{widget}
-                <input type="submit" value="Cadastrar">
-        |]
 
 postDenunciaR :: Handler Html
 postDenunciaR = do
