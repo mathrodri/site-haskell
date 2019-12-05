@@ -14,7 +14,7 @@ import Database.Persist.Postgresql
 
 formDenuncia :: Form Denuncia
 formDenuncia = renderBootstrap $ (,)
-    <$> (Denuncia 
+        <$> (Denuncia 
         <*> areq textField "Nome: " Nothing
         <*> areq emailField "Email: " Nothing
         <*> areq textField "Assunto: " Nothing
