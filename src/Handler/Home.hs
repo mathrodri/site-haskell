@@ -39,11 +39,10 @@ getHomeR = do
             [whamlet|
                 <section .section .orange #contact>
                     <div .container>
+                        <h4>Denuncie ou Conte seu caso para nós!
+                        <p>Nossa missão é encaminhar e fazer barulho para aqueles que usam de má fé, que vendem promessas milagrosas, então a melhor maneira para coibir esse tipo de atividade é denunciar. Deixe sua mensagem aqui, prometemos que vamos checar e passar sua história adiante.
                         <div .row>
                             <div .span6>
-                                <h4>
-                                    Denuncie ou Conte seu caso para nós!
-                                <p>Nossa missão é encaminhar e fazer barulho para aqueles que usam de má fé, que vendem promessas milagrosas, então a melhor maneira para coibir esse tipo de atividade é denunciar. Deixe sua mensagem aqui, prometemos que vamos checar e passar sua história adiante.
                                 <div .blankdivider30>
                                 <div .row>
                                     <div .span12>
