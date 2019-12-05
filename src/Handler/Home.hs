@@ -20,6 +20,8 @@ formDenuncia = renderBootstrap $ Denuncia
     <*> areq textField "Assunto: " Nothing
     <*> areq textField "Mensagem: " Nothing
 
+--T6DQ0klE
+
 getHomeR :: Handler Html
 getHomeR = do
     (widget, _) <- generateFormPost formDenuncia
