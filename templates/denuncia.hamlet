@@ -18,6 +18,22 @@
 <link href="https://surveyjs.azureedge.net/1.1.22/modern.css" type="text/css" rel="stylesheet">
 <link rel="stylesheet" href="/static/css/page.css">
 
+<div .navbar-wrapper>
+    <div .navbar.navbar-inverse.navbar-fixed-top>
+        <div .navbar-inner>
+            <div .container>
+                <a .btn.btn-navbar data-toggle="collapse" data-target=".nav-collapse">
+                    <span .icon-bar>
+                    <span .icon-bar>
+                    <span .icon-bar>
+                <h1 .brand>
+                    <a href="/">
+                        CoachnoteuCool
+                    <a href="denuncias" style="margin-left: 50px">
+                        Denuncias
+                <nav .pull-right.nav-collapse.collapse>
+                    <ul #menu-main .nav>
+
 <a href="voltar">
 <table class="table table-dark">
   <thead>
