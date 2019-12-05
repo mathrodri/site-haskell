@@ -37,7 +37,7 @@ getHomeR = do
         $(whamletFile "templates/homepage.hamlet")
         toWidget
             [whamlet|
-                <section .section-orange #contact>
+                <section .section .orange #contact>
                     <div .container>
                         <div .row>
                             <div .span6>
