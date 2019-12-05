@@ -4,3 +4,10 @@ Usuario
     senha Text
     UniqueEmailIx email
     deriving Show
+    
+Denuncia
+    nome Text
+    email Text
+    assunto Text
+    mensagem Text
+    deriving Show

@@ -168,9 +168,9 @@
                     <div #sendmessage>
                         Sua mensagem foi enviada com sucesso!
                     <div #errormessage>
-                    <form action="" method="post" role="form" .contactForm>
-                        <div .row">
-                            <div .span6">
+                    <form action=@{DenunciaR} method="post" role="form" .contactForm>
+                        <div .row>
+                            <div .span6>
                                 <div .field your-name.form-group>
                                     <input type="text" name="name" .form-control #name placeholder="Nome" data-rule="minlen:4" data-msg="Nome muito curto" />
                                     <div .validation>
