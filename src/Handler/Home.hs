@@ -20,8 +20,7 @@ data FileForm = FileForm
 getHomeR :: Handler Html
 getHomeR = do
     defaultLayout $ do
-        toWidgetHead
-        [whamlet|
+        toWidgetHead [hamlet|
             <meta charset="utf-8">
             <title>
                 Coach no teu Fique esperto!
