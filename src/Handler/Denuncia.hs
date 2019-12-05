@@ -16,10 +16,17 @@ data FileForm = FileForm
     { fileInfo :: FileInfo
         , fileDescription :: Text
     }
+    
+formDenuncia :: Form Denuncia 
+formDenuncia = renderBootstrap $ Denuncia
+    <$> areq textField "Nome: " Nothing
+    <*> areq dayField "Email: " Nothing
+    <*> areq textField "Assunto: " Nothing
+    <*> areq textField "Mensagem: " Nothing
 
 postDenunciaR :: Handler Html
 postDenunciaR = do
-    ((((result,_),_),_),_) <- runFormPost formDenuncia
+    ((result,_),_) <- runFormPost formDenuncia
     case result of 
         FormSuccess denuncia -> do 
             runDB $ insert denuncia 
