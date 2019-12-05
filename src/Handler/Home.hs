@@ -33,7 +33,7 @@ getHomeR = do
     
     
     
-    <script src="/static/js/jquery.js">
+<script src="/static/js/jquery.js">
 <script src="/static/js/jquery.scrollTo.js">
 <script src="/static/js/jquery.nav.js">
 <script src="/static/js/jquery.localScroll.js">
