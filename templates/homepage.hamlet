@@ -29,7 +29,7 @@
                 <h1 .brand>
                     <a href="/">
                         CoachnoteuCool
-                    <a href="denuncias">
+                    <a href="denuncias" style="margin-left: 50px">
                         Denuncias
                 <nav .pull-right.nav-collapse.collapse>
                     <ul #menu-main .nav>
