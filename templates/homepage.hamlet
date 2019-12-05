@@ -9,7 +9,6 @@
 <script src="/static/js/inview.js">
 <script src="/static/js/animate.js">
 <script src="/static/js/custom.js">
-<script src="/static/js/quiz.js">
 <link href="/static/css/bootstrap-responsive.css" rel="stylesheet">
 <link href="/static/css/style.css" rel="stylesheet">
 <link href="/static/css/default.css" rel="stylesheet">
@@ -198,3 +197,5 @@
 
 <a href="#" .scrollup>
     <i .icon-angle-up.icon-square.icon-bgdark.icon-2x>
+
+<script src="/static/js/quiz.js">
