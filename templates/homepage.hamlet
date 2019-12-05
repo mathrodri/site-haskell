@@ -110,6 +110,9 @@
                         <img src="https://ylx-aff.advertica-cdn.com/pub/160x600.png" style="border:none;margin:0;padding:0;vertical-align:baseline;" />
 
     <div #result .container.result style="display:none;">
+        Você é o bixão memo em doido, fez
+        <span #score-result>
+        pontos, brabissimo!
 
 <section .spacer.bg3>
     <div .container>

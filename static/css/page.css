@@ -16,3 +16,26 @@
     align-items: center;
 }
 
+.next-btn {
+    background-color: #1bac91;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    margin-top: 20px;
+}
+
+#question {
+    margin: 10px 0;
+}
+
+#result {
+    text-align: center;
+}
+
+#score-result {
+    color: #1bac91;
+    font-size: 26px;
+    font-weight: bold;
+    position: relative;
+    margin: 0 5px;
+}
