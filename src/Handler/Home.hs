@@ -21,7 +21,7 @@ getHomeR :: Handler Html
 getHomeR = do
     defaultLayout $ do
         toWidgetHead
-        [hamlet|
+        [whamlet|
             <meta charset="utf-8">
             <title>
                 Coach no teu Fique esperto!
