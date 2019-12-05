@@ -11,24 +11,20 @@ import Text.Lucius
 import Text.Julius
 -- import Network.HTTP.Types.Status
 import Database.Persist.Postgresql
+import Yesod.Form
 
-formDenuncia :: Form Denuncia
-formDenuncia = renderBootstrap $ (,)
-        <$> Denuncia 
-        <*> areq textField "Nome: " Nothing
-        <*> areq emailField "Email: " Nothing
-        <*> areq textField "Assunto: " Nothing
-        <*> areq textField "Mensagem: " Nothing
+data FileForm = FileForm
+    { fileInfo :: FileInfo
+        , fileDescription :: Text
+    }
 
--- T6DQ0klE
-getDenunciaR :: Handler Html
-getDenunciaR = do 
-    (widget,_) <- generateFormPost formDenuncia
-    msg <- getMessage
-    defaultLayout $ do
-        setTitle "Coach no teu cool"
-        $(whamletFile "templates/denuncia.hamlet")
-        
+formDenuncia :: Form Denuncia 
+formDenuncia = renderBootstrap3 BootstrapBasicForm $ Denuncia
+    <$> areq textField "Nome: " Nothing
+    <*> areq dayField "Email: " Nothing
+    <*> areq textField "Assunto: " Nothing
+    <*> areq textField "Mensagem: " Nothing
+
 postDenunciaR :: Handler Html
 postDenunciaR = do
     ((result,_),_) <- runFormPost formDenuncia
