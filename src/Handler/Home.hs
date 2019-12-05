@@ -24,34 +24,4 @@ getHomeR = do
             <meta name="author" content="">
         |]
         $(whamletFile "templates/homepage.hamlet")
-        addScriptRemote("https://unpkg.com/jquery")
-        addScriptRemote("https://surveyjs.azureedge.net/1.1.22/survey.jquery.js")
-        toWidget $(juliusFile "templates/frases.julius")
-    
-    
-    
-    
-    
-    
-<script src="/static/js/jquery.js">
-<script src="/static/js/jquery.scrollTo.js">
-<script src="/static/js/jquery.nav.js">
-<script src="/static/js/jquery.localScroll.js">
-<script src="/static/js/bootstrap.js">
-<script src="/static/js/jquery.prettyPhoto.js">
-<script src="/static/js/isotope.js">
-<script src="/static/js/jquery.flexslider.js">
-<script src="/static/js/inview.js">
-<script src="/static/js/animate.js">
-<script src="/static/js/custom.js">
-
-
-
-
-<link href="/static/css/bootstrap-responsive.css" rel="stylesheet">
-<link href="/static/css/style.css" rel="stylesheet">
-<link href="https://surveyjs.azureedge.net/1.1.22/modern.css" type="text/css" rel="stylesheet">
-<link href="/static/css/default.css" rel="stylesheet">
-<link rel="stylesheet" href="/static/css/page.css">
-
-<link rel="shortcut icon" href="/static/images/favicon.ico">
+        
