@@ -11,7 +11,7 @@ import Text.Lucius
 import Text.Julius
 -- import Network.HTTP.Types.Status
 import Database.Persist.Postgresql
-import Yesod.Form.Bootstrap
+import Yesod.Form.Bootstrap3
 
 data FileForm = FileForm
     { fileInfo :: FileInfo
