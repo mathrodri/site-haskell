@@ -82,7 +82,7 @@ function loadNextQuestion() {
   if (currentQuestion == totQuestions) {
     container.style.display = "none";
     resultCont.style.display = "";
-    resultCont.textContent = "Your Score: " + score;
+    resultCont.textContent = "Você é bom heim?! Seu numéro de acertos foi: " + score;
     return;
   }
   prevButton.disabled = false;
