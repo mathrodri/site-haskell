@@ -12,11 +12,6 @@ import Text.Julius
 -- import Network.HTTP.Types.Status
 import Database.Persist.Postgresql
 
-data FileForm = FileForm
-    { fileInfo :: FileInfo
-        , fileDescription :: Text
-    }
-
 formDenuncia :: Form (Denuncia, Text) 
 formDenuncia = renderBootstrap $ (,)
     <$> (Denuncia 
