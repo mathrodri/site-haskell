@@ -16,12 +16,7 @@ data FileForm = FileForm
     { fileInfo :: FileInfo
         , fileDescription :: Text
     }
-    
-data Form = Form
-    { fileInfo :: FileInfo
-        , fileDescription :: Form
-    }
-    
+
 formDenuncia :: Form Denuncia 
 formDenuncia = renderBootstrap $ Denuncia
     <$> areq textField "Nome: " Nothing
@@ -31,14 +26,15 @@ formDenuncia = renderBootstrap $ Denuncia
 
 postDenunciaR :: Handler Html
 postDenunciaR = do
-    ((result,_),_) <- runFormPost formDenuncia
-    case result of 
-        FormSuccess denuncia -> do 
-            runDB $ insert denuncia 
-            setMessage [shamlet|
-                <div>
-                    Denuncia feita com sucesso.
-            |]
-            redirect HomeR
-        _ -> redirect HomeR
+    -- ((result,_),_) <- runFormPost formDenuncia
+    -- case result of 
+    --     FormSuccess denuncia -> do 
+    --         runDB $ insert denuncia 
+    --         setMessage [shamlet|
+    --             <div>
+    --                 Denuncia feita com sucesso.
+    --         |]
+    --         redirect HomeR
+    --     _ -> redirect HomeR
+    redirect HomeR
     
