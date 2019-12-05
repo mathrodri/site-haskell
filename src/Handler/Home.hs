@@ -34,6 +34,17 @@ getHomeR = do
             <meta name="description" content="Coach e seus fracassos">
             <meta name="author" content="">
         |]
+        toWidgetHead [lucius|
+            .control-group.clearfix.required {
+                width: 50%;
+                margin: 0 auto;
+            }
+            
+            .control-group.clearfix.required input{
+                width: 100%;
+                height: 40px;
+            }
+        |]
         $(whamletFile "templates/homepage.hamlet")
         toWidget
             [whamlet|
