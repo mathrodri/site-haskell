@@ -6,8 +6,8 @@
       <th scope="col">Mensagem
 
   <tbody>
-    $forall Entity aid denun <- denuncia
+    $forall Entity aid denuncia <- denuncias
         <tr>
-          <td>#{denunciaNome denun}
-          <td>#{denunciaEmail denun}
-          <td>#{denunciaMensagem denun}
+          <td>#{denunciaNome denuncia}
+          <td>#{denunciaEmail denuncia}
+          <td>#{denunciaMensagem denuncia}
