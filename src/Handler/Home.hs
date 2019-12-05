@@ -28,6 +28,6 @@ getHomeR = do
         --     <meta name="description" content="Coach e seus fracassos">
         --     <meta name="author" content="">
         -- |]
-        toWidgetHead("templates/head.hamlet")
+        $toWidgetHead("templates/head.hamlet")
         $(whamletFile "templates/homepage.hamlet")
     
