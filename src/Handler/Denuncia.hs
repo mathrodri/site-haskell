@@ -12,7 +12,7 @@ import Text.Julius
 -- import Network.HTTP.Types.Status
 import Database.Persist.Postgresql
 
-formDenuncia :: Form (Denuncia, Text) 
+formDenuncia :: Form (Denuncia) 
 formDenuncia = renderBootstrap $ (,)
     <$> (Denuncia 
         <*> areq textField "Nome: " Nothing
