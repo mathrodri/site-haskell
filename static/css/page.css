@@ -43,3 +43,10 @@
 #btn-denuncia {
     background-color: #2B2B2B
 }
+
+#denuncias-container {
+    position: relative;
+    top: 30px;
+    max-width: 80%;
+    margin: auto;
+}

@@ -33,6 +33,7 @@
                         Denuncias
                 <nav .pull-right.nav-collapse.collapse>
                     <ul #menu-main .nav>
+
 <div #denuncias-container>
   <table class="table table-dark">
     <thead>
