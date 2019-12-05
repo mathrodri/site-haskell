@@ -20,13 +20,14 @@ data FileForm = FileForm
 getHomeR :: Handler Html
 getHomeR = do
     defaultLayout $ do
-        [hamlet|
-            <meta charset="utf-8">
-            <title>
-                Coach no teu Fique esperto!
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta name="description" content="Coach e seus fracassos">
-            <meta name="author" content="">
-        |]
+        -- [shamlet|
+        --     <meta charset="utf-8">
+        --     <title>
+        --         Coach no teu Fique esperto!
+        --     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        --     <meta name="description" content="Coach e seus fracassos">
+        --     <meta name="author" content="">
+        -- |]
+        toWidgetHead("templates/head.hamlet")
         $(whamletFile "templates/homepage.hamlet")
     
