@@ -19,7 +19,7 @@ data FileForm = FileForm
     }
 
 formDenuncia :: Form Denuncia 
-formDenuncia = renderBootstrap3 BootstrapBasicForm $ Denuncia
+formDenuncia = renderBootstrap $ Denuncia
     <$> areq textField "Nome: " Nothing
     <*> areq dayField "Email: " Nothing
     <*> areq textField "Assunto: " Nothing
