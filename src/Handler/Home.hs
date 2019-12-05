@@ -28,8 +28,7 @@ getHomeR = do
     defaultLayout $ do
         toWidgetHead [hamlet|
             <meta charset="utf-8">
-            <title>
-                Coach no teu Fique esperto!
+            <title> Coach no teu Fique esperto!
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta name="description" content="Coach e seus fracassos">
             <meta name="author" content="">
@@ -60,7 +59,7 @@ getHomeR = do
                                         <div .cform #contact-form>
                                             <form method=post action=@{HomeR}>
                                                 ^{widget}
-                                                <input type="submit" value="Cadastrar">
+                                                <input type="submit" value="Cadastrar" style="margin: 0 auto;">
             |]
         $(whamletFile "templates/footer.hamlet")
         
