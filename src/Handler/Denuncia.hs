@@ -19,10 +19,14 @@ data FileForm = FileForm
 
 postDenunciaR :: Handler Html
 postDenunciaR = do
-    nome <- lookupPostParam "name"
-    email <- lookupPostParam "email"
-    assunto <- lookupPostParam "subject"
-    mensagem <- lookupPostParam "message"
-    insertedDenuncia <- runDB $ insert $ Denuncia nome email assunto mensagem
-    redirect HomeR
+    ((((result,_),_),_),_) <- runFormPost formDenuncia
+    case result of 
+        FormSuccess denuncia -> do 
+            runDB $ insert denuncia 
+            setMessage [shamlet|
+                <div>
+                    Denuncia feita com sucesso.
+            |]
+            redirect HomeR
+        _ -> redirect HomeR
     
