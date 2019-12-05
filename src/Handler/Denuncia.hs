@@ -24,6 +24,6 @@ postDenunciaR = do
     assunto <- lookupPostParam "subject"
     mensagem <- lookupPostParam "message"
     runDB $ do
-        insertedDenuncia <- insert $ Denuncia nome email assunto mensagem
+        insertedDenuncia <- insert $ Denuncia nome email assunto mensagem $
     redirect HomeR
     
