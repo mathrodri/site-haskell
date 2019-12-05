@@ -18,8 +18,8 @@ data FileForm = FileForm
     }
     
 data Form = Form
-    { formInfo :: FormInfo
-        , formDescription :: Form
+    { fileInfo :: FileInfo
+        , fileDescription :: Form
     }
     
 formDenuncia :: Form Denuncia 
